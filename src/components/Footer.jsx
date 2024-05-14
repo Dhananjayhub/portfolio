@@ -82,12 +82,12 @@ const Footer = () => {
         <div className="space-y-4 lg:w-96">
           <h3 className="text-xl font-semibold">Subscribe</h3>
           <div className="space-y-3 text-gray-300">
-            <div className="relative w-full">
+            {/* <div className="relative w-full">
                 <input type="email" placeholder="dkjha444@gmail.com" className="newsletter_input" />
                 <button className="newsletter_btn">
                     <span>Send</span>
                 </button>
-                </div>
+                </div> */}
                 <p> <EmailForm /> </p>
             
           </div>
