@@ -40,7 +40,7 @@ const Navbar = () => {
         {/* for large device */}
         <div className="flex  justify-between items-center text-base gap-8">
           <a href="/" className="text-white text-3xl font-bold">
-            <span className="text-red-500">A</span>rino
+            <span className="text-red-500">Aro</span>Link
           </a>
 
           {/* menu for large device */}

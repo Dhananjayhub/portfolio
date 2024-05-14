@@ -1,4 +1,5 @@
 import React from "react";
+import EmailForm from "./EmailForm";
 import {
   FaFacebook,
   FaInstagram,
@@ -14,10 +15,10 @@ const Footer = () => {
         {/* logo text */}
         <div className="space-y-4 lg:w-1/3">
           <a href="/" className="text-white text-3xl font-bold">
-            <span className="text-red-500">A</span>rino
+            <span className="text-red-500">Aro</span>Link
           </a>
           <p className="text-gray-200">
-            Welcome to arino and follow us on social media {" "}
+            Welcome to Arolink and follow us on social media {" "}
           </p>
           {/* social icons */}
           <div className="flex text-white gap-5 ">
@@ -87,7 +88,7 @@ const Footer = () => {
                     <span>Send</span>
                 </button>
                 </div>
-                <p></p>
+                <p> <EmailForm /> </p>
             
           </div>
         </div>
